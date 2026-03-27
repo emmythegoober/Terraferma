@@ -70,7 +70,7 @@ figure {
     float:left;
     background-color: #d4d3cd;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 6px;
     padding: 5px;
  
 }
