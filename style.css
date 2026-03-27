@@ -58,6 +58,17 @@ figure {
     padding: 10px;
     border-radius: 5px;
 }
+
+.contents {
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    background-color: #d4d3cd;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+ 
+}
+
 figure img {
     margin-left:auto;
     margin-right:0px;
