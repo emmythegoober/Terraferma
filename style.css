@@ -118,11 +118,13 @@ table {
 .caption {
     font-size: 11pt;
     text-align: center;
+    margin-right:auto;
 }
 
 th[scope="col"] {
   background-color: #a7b2c8;
   color: black;
+  margin-right:auto;
 }
 
 
