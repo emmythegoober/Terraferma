@@ -27,6 +27,19 @@ sup {
     font-size: 11pt;
 }
 
+.longname {
+    font-size: 10pt;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.shortname {
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: center;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     margin-right:5%;
@@ -44,6 +57,10 @@ figure {
    max-width: 200px;
 }
 
+.ohmygodjuststaysmall {
+    max-width: 260px;
+}
+
 .left {
     float:left;
     margin-left:auto;
@@ -56,6 +73,8 @@ figure {
     margin-left:15px;
     margin-right:auto;
 }
+
+
 
 .logs {
     background-color: #e8bfbe;
@@ -88,23 +107,24 @@ figcaption {
     font-size: 11pt;
 }
 table {
+
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
   font-family: sans-serif;
   font-size: 0.8rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.1px;
 }
 
-caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-weight: bold;
+.caption {
+    font-size: 11pt;
+    text-align: center;
 }
 
-thead,
-tfoot {
-  background-color: rgb(228 240 245);
+th[scope="col"] {
+  background-color: #a7b2c8;
+  color: black;
 }
+
 
 th,
 td {
@@ -127,3 +147,4 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
+
