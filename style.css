@@ -8,6 +8,16 @@ body {
     background-color: #ebe9df;
 }
 
+.musings {
+    font-size:12pt;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:1.44em;
+    color:#fff;
+    background-color: #474744;
+}
+
 h1,
 h2,
 h3,
@@ -63,6 +73,10 @@ figure {
 
 .ohmygodjuststaysmaller {
     max-width: 100px;
+}
+
+.indent-first {
+    text-indent: 5%;
 }
 
 .left {
